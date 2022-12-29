@@ -4,7 +4,7 @@ COPY ./content /workdir/
 
 ENV GLOBAL_USER=admin
 ENV GLOBAL_PASSWORD=password
-ENV CADDY_DOMAIN=http://localhost
+#ENV CADDY_DOMAIN=http://localhost
 ENV CADDY_EMAIL=internal
 ENV CADDY_WEB_PORT=8080
 ENV GLOBAL_LANGUAGE=en
